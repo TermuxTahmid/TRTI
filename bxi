@@ -1,0 +1,11 @@
+import os
+os.system('git pull')
+from platform import uname
+print('\njoin over facebook group for any help')
+os.system('xdg-open https://facebook.com/groups/351076900316263/')
+arch=uname().machine.lower()
+if "aarch" in arch:
+    arch="aarch"
+    import bxi
+else:
+    exit('\033[1;31m\n sorry system not support')
